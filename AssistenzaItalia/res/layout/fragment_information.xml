@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity"
+    android:padding="10dp" >
+
+
+    <Button
+        android:id="@+id/buttonTwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonFacebook"
+        android:layout_alignBottom="@+id/buttonFacebook"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/twitter" />
+
+    <Button
+        android:id="@+id/buttonGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonTwitter"
+        android:layout_alignBottom="@+id/buttonTwitter"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/google" />
+
+    <Button
+        android:id="@+id/buttonFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/facebook" />
+
+    <TextView
+        android:id="@+id/textInformationBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="36dp"
+        android:gravity="center"
+        android:text="2014 &#169; | AmicoSmanettone.it"
+        android:textColor="#ff0000" />
+
+    <Button
+        android:id="@+id/buttonAmicosmanettone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textInformationBottom"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textInformationHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonFacebook"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/text_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+</RelativeLayout>

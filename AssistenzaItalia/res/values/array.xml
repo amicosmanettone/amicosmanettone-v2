@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- VOCI DI MENU -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Chat</item>
+        <item>Assistenza</item>
+        <item>Tecnici</item>
+        <item>Informazioni</item>
+        <item>Impostazioni</item>
+    </string-array>
+
+    <!-- ICONE DELLE VOCI DI MENU -->
+    <!-- METTERLE IN ORDINE IN BASE ALL'ORDINE DELLE VOCI DI MENU -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_chat</item>
+        <item>@drawable/ic_assistenza</item>
+        <item>@drawable/ic_tecnico</item>
+        <item>@drawable/ic_informazioni</item>
+        <item>@drawable/ic_preference</item>
+    </array>
+
+    <!-- VOCI DELLE IMPOSTAZIONI -->
+    <string-array name="listChatUpdate">
+        <item>Ogni 5 Secondi</item>
+        <item>Ogni 10 Secondi</item>
+        <item>Ogni 20 Secondi</item>
+        <item>Ogni 30 Secondi</item>
+        <item>Ogni 60 Secondi</item>
+    </string-array>
+    <string-array name="listChatUpdateValues">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <!-- ASSISTENZA -->
+    <!-- PROBLEMI -->
+    <string-array name="problemi">
+        <item></item>
+        <item>Problema con il pc portatile</item>
+        <item>Problema con il pc fisso</item>
+        <item>Problema con lo smartphone</item>
+        <item>Problema con la stampante</item>
+        <item>Problema con il modem/router</item>
+        <item>Problema non in elenco</item>
+    </string-array>
+
+    <!-- INTERNET -->
+    <string-array name="internet">
+        <item></item>
+        <item>Si</item>
+        <item>No</item>
+        <item>Non lo so</item>
+    </string-array>
+
+    <!-- REGIONI -->
+    <string-array name="regioniItalia">
+        <item></item>
+        <item>Abruzzo</item>
+        <item>Basilicata</item>
+        <item>Calabria</item>
+        <item>Campania</item>
+        <item>Emilia Romagna</item>
+        <item>Friuli Venezia Giulia</item>
+        <item>Lazio</item>
+        <item>Liguria</item>
+        <item>Lombardia</item>
+        <item>Marche</item>
+        <item>Molise</item>
+        <item>Piemonte</item>
+        <item>Puglia</item>
+        <item>Sardegna</item>
+        <item>Sicilia</item>
+        <item>Toscana</item>
+        <item>Trentino Alto Adige</item>
+        <item>Umbria</item>
+        <item>Valle d\'Aosta</item>
+        <item>Veneto</item>
+    </string-array>
+
+    <!-- PROVINCE -->
+    <string-array name="Abruzzo">
+        <item></item>
+        <item>Chieti</item>
+        <item>L\'Aquila</item>
+        <item>Pescara</item>
+        <item>Teramo</item>
+    </string-array>
+    <string-array name="Basilicata">
+        <item>Matera</item>
+        <item>Potenza</item>
+    </string-array>
+    <string-array name="Calabria">
+        <item>Catanzaro</item>
+        <item>Cosenza</item>
+        <item>Crotone</item>
+        <item>Reggio Calabria</item>
+        <item>Vibo Valentia</item>
+    </string-array>
+    <string-array name="Campania">
+        <item>Avellino</item>
+        <item>Benevento</item>
+        <item>Caserta</item>
+        <item>Napoli</item>
+        <item>Salerno</item>
+    </string-array>
+    <string-array name="Emilia_Romagna">
+        <item>Bologna</item>
+        <item>Ferrara</item>
+        <item>ForlìCesena</item>
+        <item>Modena</item>
+        <item>Parma</item>
+        <item>Piacenza</item>
+        <item>Ravenna</item>
+        <item>Reggio Emilia</item>
+        <item>Rimini</item>
+    </string-array>
+    <string-array name="Friuli_Venezia_Giulia">
+        <item>Gorizia</item>
+        <item>Pordenone</item>
+        <item>Trieste</item>
+        <item>Udine</item>
+    </string-array>
+    <string-array name="Lazio">
+        <item>Frosinone</item>
+        <item>Latina</item>
+        <item>Rieti</item>
+        <item>Roma</item>
+        <item>Viterbo</item>
+    </string-array>
+    <string-array name="Liguria">
+        <item>Genova</item>
+        <item>Imperia</item>
+        <item>La Spezia</item>
+        <item>Savona</item>
+    </string-array>
+    <string-array name="Lombardia">
+        <item>Bergamo</item>
+        <item>Brescia</item>
+        <item>Como</item>
+        <item>Cremona</item>
+        <item>Lecco</item>
+        <item>Lodi</item>
+        <item>Mantova</item>
+        <item>Milano</item>
+        <item>Monza e Brianza</item>
+        <item>Pavia</item>
+        <item>Sondrio</item>
+        <item>Varese</item>
+    </string-array>
+    <string-array name="Marche">
+        <item>Ancona</item>
+        <item>Ascoli Piceno</item>
+        <item>Fermo</item>
+        <item>Macerata</item>
+        <item>Pesaro e Urbino</item>
+    </string-array>
+    <string-array name="Molise">
+        <item>Campobasso</item>
+        <item>Isernia</item>
+    </string-array>
+    <string-array name="Piemonte">
+        <item>Alessandria</item>
+        <item>Asti</item>
+        <item>Biella</item>
+        <item>Cuneo</item>
+        <item>Novara</item>
+        <item>Torino</item>
+        <item>Verbano-Cusio-Ossola</item>
+        <item>Vercelli</item>
+    </string-array>
+    <string-array name="Puglia">
+        <item>Bari</item>
+        <item>Barletta-Andria-Trani</item>
+        <item>Brindisi</item>
+        <item>Foggia</item>
+        <item>Lecce</item>
+        <item>Taranto</item>
+    </string-array>
+    <string-array name="Sardegna">
+        <item>Cagliari</item>
+        <item>Carbonia-Iglesias</item>
+        <item>Medio Campidano</item>
+        <item>Nuoro</item>
+        <item>Ogliastra</item>
+        <item>Olbia-Tempio</item>
+        <item>Oristano</item>
+        <item>Sassari</item>
+    </string-array>
+    <string-array name="Sicilia">
+        <item>Agrigento</item>
+        <item>Caltanissetta</item>
+        <item>Catania</item>
+        <item>Enna</item>
+        <item>Messina</item>
+        <item>Palermo</item>
+        <item>Ragusa</item>
+        <item>Siracusa</item>
+        <item>Trapani</item>
+    </string-array>
+    <string-array name="Toscana">
+        <item>Arezzo</item>
+        <item>Firenze</item>
+        <item>Grosseto</item>
+        <item>Livorno</item>
+        <item>Lucca</item>
+        <item>Massa e Carrara</item>
+        <item>Pisa</item>
+        <item>Pistoia</item>
+        <item>Prato</item>
+        <item>Siena</item>
+    </string-array>
+    <string-array name="Trentino_Alto_Adige">
+        <item>Bolzano</item>
+        <item>Trento</item>
+    </string-array>
+    <string-array name="Umbria">
+        <item>Perugia</item>
+        <item>Terni</item>
+    </string-array>
+    <string-array name="Veneto">
+        <item>Belluno</item>
+        <item>Padova</item>
+        <item>Rovigo</item>
+        <item>Treviso</item>
+        <item>Venezia</item>
+        <item>Verona</item>
+        <item>Vicenza</item>
+    </string-array>
+    <string-array name="Valle_Aosta">
+        <item>Aosta</item>
+    </string-array>
+
+</resources>

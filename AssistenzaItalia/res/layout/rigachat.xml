@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/it.amicosmanettone.assistenza.assistenzaitalia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="75dp"
+    android:background="@drawable/chat_row_bg"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textChatUser"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/imageChatUser"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/imageChatUser"
+        android:padding="15dp"
+        android:textColor="#a4c639"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textChatMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textChatUser"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/chat_text_bg"
+        android:padding="15dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textChatDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textChatMessage"
+        android:background="#c4c3d0"
+        android:gravity="center"
+        android:textColor="#000" />
+
+    <it.amicosmanettone.assistenza.assistenzaitalia.adapter.CircularImageView
+        android:id="@+id/imageChatUser"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/default_user"
+        app:border_color="#EEEEEE"
+        app:border_width="0"
+        app:shadow="true" />
+
+</RelativeLayout>

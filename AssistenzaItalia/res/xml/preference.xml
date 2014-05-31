@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_title_gegeral"
+        android:title="GENERALE" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="rememberUsername"
+            android:summary="Ricorda l\&apos;username dopo il logout"
+            android:title="Ricorda username" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="rememberModule"
+            android:summary="Ricorda i dati del modulo di assistenza dopo l\&apos;invio"
+            android:title="Ricorda i dati del modulo" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="pref_title_chat"
+        android:title="CHAT" >
+        <ListPreference
+            android:defaultValue="20"
+            android:dialogTitle="Tempo di aggiornamento della chat"
+            android:entries="@array/listChatUpdate"
+            android:entryValues="@array/listChatUpdateValues"
+            android:key="updateChatSecond"
+            android:title="Aggiornamento chat" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="receiveChatNotification"
+            android:summary="Ricevi notifiche quando cè un nuovo messaggio in chat"
+            android:title="Ricevi notifiche" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

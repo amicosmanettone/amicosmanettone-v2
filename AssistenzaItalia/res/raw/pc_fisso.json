@@ -1,0 +1,20 @@
+{
+	"title": "Che problema hai?",
+	"categorie": [
+	{
+		"nome": "problema hardware",
+		"figli": "si",
+		"categoriaFiglio": "pc_fisso_hardware"
+	},
+	{
+		"nome": "problema software",
+		"figli": "si",
+		"categoriaFiglio": "pc_fisso_software"
+	},
+	{
+		"nome": "non so",
+		"figli": "si",
+		"categoriaFiglio": "pc_fisso_nonso"
+	}
+	]
+}

@@ -1,0 +1,31 @@
+# view res/layout/activity_main.xml #generated:1
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/fragment_assistenza_send.xml #generated:8
+# view res/layout/fragment_chat.xml #generated:69
+# view res/layout/fragment_home_guest.xml #generated:90
+# view res/layout/fragment_tecnici.xml #generated:32
+# view res/layout/progress_wheel_activity.xml #generated:34
+# view res/layout/progress_wheel_activity.xml #generated:53
+# view res/layout/progress_wheel_activity.xml #generated:68
+-keep class com.todddavies.components.progressbar.ProgressWheel { <init>(...); }
+
+# view res/layout/main.xml #generated:48
+-keep class com.visualdenim.schooltraq.progressbar.NewProgressSpinner { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class it.amicosmanettone.assistenza.assistenzaitalia.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class it.amicosmanettone.assistenza.assistenzaitalia.PreferenceFragment { <init>(...); }
+
+# view res/layout/fragment_home_guest.xml #generated:19
+# view res/layout/rigachat.xml #generated:45
+-keep class it.amicosmanettone.assistenza.assistenzaitalia.adapter.CircularImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class it.amicosmanettone.assistenza.assistenzaitalia.gcm.GcmBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class it.amicosmanettone.assistenza.assistenzaitalia.gcm.GcmIntentService { <init>(...); }
+
