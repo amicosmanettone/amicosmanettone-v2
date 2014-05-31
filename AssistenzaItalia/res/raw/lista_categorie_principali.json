@@ -1,0 +1,20 @@
+{
+	"version": "1",
+	"title": "Che dispositivo hai?",
+	"categorie": [
+	{
+		"nome": "pc fisso",
+		"figli": "si",
+		"categoriaFiglio": "pc_fisso"
+	},
+	{
+		"nome": "pc portatile",
+		"figli": "si",
+		"categoriaFiglio": "pc_portatile"
+	},
+	{
+		"nome": "smartphone",
+		"figli": "no"
+	}
+	]
+}

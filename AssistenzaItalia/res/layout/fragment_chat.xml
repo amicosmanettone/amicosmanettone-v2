@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chat_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/chat_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/listChat"
+            android:layout_width="275dp"
+            android:layout_height="515dp"
+            android:layout_above="@+id/chatLinerSend"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="7dp"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" >
+
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/chatLinerSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/chat_send_default"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/testoMessaggioInvia"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:ems="10"
+                android:inputType="textMultiLine|textCapSentences"
+                android:textColor="#000" />
+
+            <ImageButton
+                android:id="@+id/buttonSend"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:background="#00000000"
+                android:src="@drawable/ic_chat_send"
+                android:text="Invia" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/chat_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <com.todddavies.components.progressbar.ProgressWheel
+            android:id="@+id/chat_spinner"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            ProgressWheel:barColor="#0097D6"
+            ProgressWheel:barLength="60dp"
+            ProgressWheel:barWidth="5dp"
+            ProgressWheel:rimColor="#330097D6"
+            ProgressWheel:rimWidth="2dp"
+            ProgressWheel:text="Recupero chat..."
+            ProgressWheel:textColor="#222"
+            ProgressWheel:textSize="14sp" />
+    </LinearLayout>
+
+</FrameLayout>

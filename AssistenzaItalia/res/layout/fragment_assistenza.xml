@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/assistenzaTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Richiedi assistenza"
+        android:textColor="#f00"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Richiedi assistenza per:"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/assistenzaButtonDevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_selector"
+        android:text="QUESTO DEVICE" />
+
+    <Button
+        android:id="@+id/assistenzaButtonOther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_selector"
+        android:text="ALTRO" />
+
+    <TextView
+        android:id="@+id/textResetModule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:clickable="true"
+        android:text="Resetta modulo"
+        android:textColor="#00bfff"
+        android:textSize="25sp" />
+
+</LinearLayout>

@@ -1,0 +1,886 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.content.WakefulBroadcastReceiver: WakefulBroadcastReceiver()
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+com.google.android.gms.R$attr: int adSize
+com.google.android.gms.R$attr: int adSizes
+com.google.android.gms.R$attr: int adUnitId
+com.google.android.gms.R$attr: int cameraBearing
+com.google.android.gms.R$attr: int cameraTargetLat
+com.google.android.gms.R$attr: int cameraTargetLng
+com.google.android.gms.R$attr: int cameraTilt
+com.google.android.gms.R$attr: int cameraZoom
+com.google.android.gms.R$attr: int mapType
+com.google.android.gms.R$attr: int uiCompass
+com.google.android.gms.R$attr: int uiRotateGestures
+com.google.android.gms.R$attr: int uiScrollGestures
+com.google.android.gms.R$attr: int uiTiltGestures
+com.google.android.gms.R$attr: int uiZoomControls
+com.google.android.gms.R$attr: int uiZoomGestures
+com.google.android.gms.R$attr: int useViewLifecycle
+com.google.android.gms.R$attr: int zOrderOnTop
+com.google.android.gms.R$color: int common_action_bar_splitter
+com.google.android.gms.R$color: int common_signin_btn_dark_text_default
+com.google.android.gms.R$color: int common_signin_btn_dark_text_disabled
+com.google.android.gms.R$color: int common_signin_btn_dark_text_focused
+com.google.android.gms.R$color: int common_signin_btn_dark_text_pressed
+com.google.android.gms.R$color: int common_signin_btn_default_background
+com.google.android.gms.R$color: int common_signin_btn_light_text_default
+com.google.android.gms.R$color: int common_signin_btn_light_text_disabled
+com.google.android.gms.R$color: int common_signin_btn_light_text_focused
+com.google.android.gms.R$color: int common_signin_btn_light_text_pressed
+com.google.android.gms.R$color: int common_signin_btn_text_dark
+com.google.android.gms.R$color: int common_signin_btn_text_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_normal_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_normal_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_pressed_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_pressed_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_normal_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_normal_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_pressed_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_pressed_light
+com.google.android.gms.R$drawable: int ic_plusone_medium_off_client
+com.google.android.gms.R$drawable: int ic_plusone_small_off_client
+com.google.android.gms.R$drawable: int ic_plusone_standard_off_client
+com.google.android.gms.R$drawable: int ic_plusone_tall_off_client
+com.google.android.gms.R$id: int hybrid
+com.google.android.gms.R$id: int none
+com.google.android.gms.R$id: int normal
+com.google.android.gms.R$id: int satellite
+com.google.android.gms.R$id: int terrain
+com.google.android.gms.R$integer: int google_play_services_version
+com.google.android.gms.R$string: int auth_client_needs_enabling_title
+com.google.android.gms.R$string: int auth_client_needs_installation_title
+com.google.android.gms.R$string: int auth_client_needs_update_title
+com.google.android.gms.R$string: int auth_client_play_services_err_notification_msg
+com.google.android.gms.R$string: int auth_client_requested_by_msg
+com.google.android.gms.R$string: int auth_client_using_bad_version_title
+com.google.android.gms.R$string: int common_google_play_services_enable_button
+com.google.android.gms.R$string: int common_google_play_services_enable_text
+com.google.android.gms.R$string: int common_google_play_services_enable_title
+com.google.android.gms.R$string: int common_google_play_services_install_button
+com.google.android.gms.R$string: int common_google_play_services_install_text_phone
+com.google.android.gms.R$string: int common_google_play_services_install_text_tablet
+com.google.android.gms.R$string: int common_google_play_services_install_title
+com.google.android.gms.R$string: int common_google_play_services_invalid_account_text
+com.google.android.gms.R$string: int common_google_play_services_invalid_account_title
+com.google.android.gms.R$string: int common_google_play_services_network_error_text
+com.google.android.gms.R$string: int common_google_play_services_network_error_title
+com.google.android.gms.R$string: int common_google_play_services_unknown_issue
+com.google.android.gms.R$string: int common_google_play_services_unsupported_date_text
+com.google.android.gms.R$string: int common_google_play_services_unsupported_text
+com.google.android.gms.R$string: int common_google_play_services_unsupported_title
+com.google.android.gms.R$string: int common_google_play_services_update_button
+com.google.android.gms.R$string: int common_google_play_services_update_text
+com.google.android.gms.R$string: int common_google_play_services_update_title
+com.google.android.gms.R$string: int common_signin_button_text
+com.google.android.gms.R$string: int common_signin_button_text_long
+com.google.android.gms.R$styleable: int[] AdsAttrs
+com.google.android.gms.R$styleable: int AdsAttrs_adSize
+com.google.android.gms.R$styleable: int AdsAttrs_adSizes
+com.google.android.gms.R$styleable: int AdsAttrs_adUnitId
+com.google.android.gms.R$styleable: int[] MapAttrs
+com.google.android.gms.R$styleable: int MapAttrs_cameraBearing
+com.google.android.gms.R$styleable: int MapAttrs_cameraTargetLat
+com.google.android.gms.R$styleable: int MapAttrs_cameraTargetLng
+com.google.android.gms.R$styleable: int MapAttrs_cameraTilt
+com.google.android.gms.R$styleable: int MapAttrs_cameraZoom
+com.google.android.gms.R$styleable: int MapAttrs_mapType
+com.google.android.gms.R$styleable: int MapAttrs_uiCompass
+com.google.android.gms.R$styleable: int MapAttrs_uiRotateGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiScrollGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiTiltGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiZoomControls
+com.google.android.gms.R$styleable: int MapAttrs_uiZoomGestures
+com.google.android.gms.R$styleable: int MapAttrs_useViewLifecycle
+com.google.android.gms.R$styleable: int MapAttrs_zOrderOnTop
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.AdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.AdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.AdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.AdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.AdSize[] getAdSizes()
+com.google.android.gms.ads.doubleclick.PublisherAdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.doubleclick.PublisherAdView: com.google.android.gms.ads.doubleclick.AppEventListener getAppEventListener()
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdSizes(com.google.android.gms.ads.AdSize[])
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.ads.doubleclick.PublisherAdView: void setAppEventListener(com.google.android.gms.ads.doubleclick.AppEventListener)
+com.google.android.gms.ads.search.SearchAdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.search.SearchAdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.search.SearchAdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.search.SearchAdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.search.SearchAdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.search.SearchAdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.cast.ApplicationMetadata
+com.google.android.gms.cast.ApplicationMetadata: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.cast.CastDevice
+com.google.android.gms.cast.CastDevice: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.SignInButton: void setSize(int)
+com.google.android.gms.common.SignInButton: void setColorScheme(int)
+com.google.android.gms.common.SignInButton: void setOnClickListener(android.view.View$OnClickListener)
+com.google.android.gms.common.SignInButton: void setEnabled(boolean)
+com.google.android.gms.common.api.Status
+com.google.android.gms.common.api.Status: com.google.android.gms.common.api.StatusCreator CREATOR
+com.google.android.gms.common.data.DataHolder
+com.google.android.gms.common.data.DataHolder: com.google.android.gms.common.data.DataHolderCreator CREATOR
+com.google.android.gms.common.images.ImageManager$ImageReceiver
+com.google.android.gms.common.images.WebImage
+com.google.android.gms.common.images.WebImage: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.common.internal.safeparcel.SafeParcelable
+com.google.android.gms.common.internal.safeparcel.SafeParcelable: java.lang.String NULL
+com.google.android.gms.drive.Contents
+com.google.android.gms.drive.Contents: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.DriveId
+com.google.android.gms.drive.DriveId: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CloseContentsRequest
+com.google.android.gms.drive.internal.CloseContentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateContentsRequest
+com.google.android.gms.drive.internal.CreateContentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateFileIntentSenderRequest
+com.google.android.gms.drive.internal.CreateFileIntentSenderRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateFileRequest
+com.google.android.gms.drive.internal.CreateFileRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.CreateFolderRequest
+com.google.android.gms.drive.internal.CreateFolderRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.GetMetadataRequest
+com.google.android.gms.drive.internal.GetMetadataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnContentsResponse
+com.google.android.gms.drive.internal.OnContentsResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnDownloadProgressResponse
+com.google.android.gms.drive.internal.OnDownloadProgressResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnDriveIdResponse
+com.google.android.gms.drive.internal.OnDriveIdResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnListEntriesResponse
+com.google.android.gms.drive.internal.OnListEntriesResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OnMetadataResponse
+com.google.android.gms.drive.internal.OnMetadataResponse: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OpenContentsRequest
+com.google.android.gms.drive.internal.OpenContentsRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.OpenFileIntentSenderRequest
+com.google.android.gms.drive.internal.OpenFileIntentSenderRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.QueryRequest
+com.google.android.gms.drive.internal.QueryRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.internal.UpdateMetadataRequest
+com.google.android.gms.drive.internal.UpdateMetadataRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.metadata.internal.MetadataBundle
+com.google.android.gms.drive.metadata.internal.MetadataBundle: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.Query
+com.google.android.gms.drive.query.Query: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.ComparisonFilter
+com.google.android.gms.drive.query.internal.ComparisonFilter: com.google.android.gms.drive.query.internal.a CREATOR
+com.google.android.gms.drive.query.internal.FieldOnlyFilter
+com.google.android.gms.drive.query.internal.FieldOnlyFilter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.FilterHolder
+com.google.android.gms.drive.query.internal.FilterHolder: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.InFilter
+com.google.android.gms.drive.query.internal.InFilter: com.google.android.gms.drive.query.internal.e CREATOR
+com.google.android.gms.drive.query.internal.LogicalFilter
+com.google.android.gms.drive.query.internal.LogicalFilter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.NotFilter
+com.google.android.gms.drive.query.internal.NotFilter: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.drive.query.internal.Operator
+com.google.android.gms.drive.query.internal.Operator: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.Game
+com.google.android.gms.games.GameEntity
+com.google.android.gms.games.GameEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.Player
+com.google.android.gms.games.PlayerEntity
+com.google.android.gms.games.PlayerEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.b
+com.google.android.gms.games.d
+com.google.android.gms.games.multiplayer.Invitation
+com.google.android.gms.games.multiplayer.InvitationEntity
+com.google.android.gms.games.multiplayer.InvitationEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.Participant
+com.google.android.gms.games.multiplayer.ParticipantEntity
+com.google.android.gms.games.multiplayer.ParticipantEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.ParticipantResult
+com.google.android.gms.games.multiplayer.ParticipantResult: com.google.android.gms.games.multiplayer.ParticipantResultCreator CREATOR
+com.google.android.gms.games.multiplayer.b
+com.google.android.gms.games.multiplayer.d
+com.google.android.gms.games.multiplayer.realtime.RealTimeMessage
+com.google.android.gms.games.multiplayer.realtime.RealTimeMessage: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.realtime.Room
+com.google.android.gms.games.multiplayer.realtime.RoomEntity
+com.google.android.gms.games.multiplayer.realtime.RoomEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.realtime.c
+com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatch
+com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatchEntity
+com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatchEntity: com.google.android.gms.games.multiplayer.turnbased.TurnBasedMatchEntityCreator CREATOR
+com.google.android.gms.games.multiplayer.turnbased.a
+com.google.android.gms.internal.ai
+com.google.android.gms.internal.ai: com.google.android.gms.internal.aj CREATOR
+com.google.android.gms.internal.bj
+com.google.android.gms.internal.bj: com.google.android.gms.internal.bi CREATOR
+com.google.android.gms.internal.bm
+com.google.android.gms.internal.bm: com.google.android.gms.internal.bl CREATOR
+com.google.android.gms.internal.bz
+com.google.android.gms.internal.bz: com.google.android.gms.internal.ca CREATOR
+com.google.android.gms.internal.cb
+com.google.android.gms.internal.cb: com.google.android.gms.internal.cc CREATOR
+com.google.android.gms.internal.cu
+com.google.android.gms.internal.cu: com.google.android.gms.internal.cv CREATOR
+com.google.android.gms.internal.cw: void setContext(android.content.Context)
+com.google.android.gms.internal.dt$a
+com.google.android.gms.internal.dt$a: com.google.android.gms.internal.ef CREATOR
+com.google.android.gms.internal.dv
+com.google.android.gms.internal.el
+com.google.android.gms.internal.el: com.google.android.gms.internal.em CREATOR
+com.google.android.gms.internal.en
+com.google.android.gms.internal.en: com.google.android.gms.internal.eo CREATOR
+com.google.android.gms.internal.ep
+com.google.android.gms.internal.ep: com.google.android.gms.internal.eq CREATOR
+com.google.android.gms.internal.ep$a
+com.google.android.gms.internal.ep$a: com.google.android.gms.internal.er CREATOR
+com.google.android.gms.internal.es$a
+com.google.android.gms.internal.es$a: com.google.android.gms.internal.et CREATOR
+com.google.android.gms.internal.ev
+com.google.android.gms.internal.ev: com.google.android.gms.internal.ew CREATOR
+com.google.android.gms.internal.ev$a
+com.google.android.gms.internal.ev$a: com.google.android.gms.internal.ex CREATOR
+com.google.android.gms.internal.ev$b
+com.google.android.gms.internal.ev$b: com.google.android.gms.internal.eu CREATOR
+com.google.android.gms.internal.ey
+com.google.android.gms.internal.ey: com.google.android.gms.internal.ez CREATOR
+com.google.android.gms.internal.fm
+com.google.android.gms.internal.gh
+com.google.android.gms.internal.gh: com.google.android.gms.internal.gi CREATOR
+com.google.android.gms.internal.go
+com.google.android.gms.internal.go: com.google.android.gms.internal.gp CREATOR
+com.google.android.gms.internal.gt
+com.google.android.gms.internal.gt: com.google.android.gms.internal.gu CREATOR
+com.google.android.gms.internal.gv
+com.google.android.gms.internal.gv: com.google.android.gms.internal.gw CREATOR
+com.google.android.gms.internal.gx
+com.google.android.gms.internal.gx: com.google.android.gms.internal.gy CREATOR
+com.google.android.gms.internal.hb
+com.google.android.gms.internal.hb: com.google.android.gms.internal.hc CREATOR
+com.google.android.gms.internal.hd
+com.google.android.gms.internal.hd: com.google.android.gms.internal.he CREATOR
+com.google.android.gms.internal.hd$a
+com.google.android.gms.internal.hd$a: com.google.android.gms.internal.ha CREATOR
+com.google.android.gms.internal.hf
+com.google.android.gms.internal.hf: com.google.android.gms.internal.hg CREATOR
+com.google.android.gms.internal.hi
+com.google.android.gms.internal.hi: com.google.android.gms.internal.hj CREATOR
+com.google.android.gms.internal.hu
+com.google.android.gms.internal.hu: com.google.android.gms.internal.hw CREATOR
+com.google.android.gms.internal.ib
+com.google.android.gms.internal.ib: com.google.android.gms.internal.ic CREATOR
+com.google.android.gms.internal.id
+com.google.android.gms.internal.id: com.google.android.gms.internal.ie CREATOR
+com.google.android.gms.internal.ig
+com.google.android.gms.internal.ig: com.google.android.gms.internal.ih CREATOR
+com.google.android.gms.internal.ig$a
+com.google.android.gms.internal.ig$a: com.google.android.gms.internal.ii CREATOR
+com.google.android.gms.internal.ig$b
+com.google.android.gms.internal.ig$b: com.google.android.gms.internal.ij CREATOR
+com.google.android.gms.internal.ig$b$a
+com.google.android.gms.internal.ig$b$a: com.google.android.gms.internal.ik CREATOR
+com.google.android.gms.internal.ig$b$b
+com.google.android.gms.internal.ig$b$b: com.google.android.gms.internal.il CREATOR
+com.google.android.gms.internal.ig$c
+com.google.android.gms.internal.ig$c: com.google.android.gms.internal.im CREATOR
+com.google.android.gms.internal.ig$d
+com.google.android.gms.internal.ig$d: com.google.android.gms.internal.in CREATOR
+com.google.android.gms.internal.ig$f
+com.google.android.gms.internal.ig$f: com.google.android.gms.internal.io CREATOR
+com.google.android.gms.internal.ig$g
+com.google.android.gms.internal.ig$g: com.google.android.gms.internal.ip CREATOR
+com.google.android.gms.internal.ig$h
+com.google.android.gms.internal.ig$h: com.google.android.gms.internal.iq CREATOR
+com.google.android.gms.internal.v
+com.google.android.gms.internal.v: com.google.android.gms.internal.w CREATOR
+com.google.android.gms.internal.x
+com.google.android.gms.internal.x: com.google.android.gms.internal.y CREATOR
+com.google.android.gms.location.ActivityRecognitionResult
+com.google.android.gms.location.ActivityRecognitionResult: com.google.android.gms.location.ActivityRecognitionResultCreator CREATOR
+com.google.android.gms.location.DetectedActivity
+com.google.android.gms.location.DetectedActivity: com.google.android.gms.location.DetectedActivityCreator CREATOR
+com.google.android.gms.location.LocationRequest
+com.google.android.gms.location.LocationRequest: com.google.android.gms.location.LocationRequestCreator CREATOR
+com.google.android.gms.location.a
+com.google.android.gms.location.a: com.google.android.gms.location.b CREATOR
+com.google.android.gms.location.d
+com.google.android.gms.location.d: com.google.android.gms.location.e CREATOR
+com.google.android.gms.location.f
+com.google.android.gms.location.f: com.google.android.gms.location.g CREATOR
+com.google.android.gms.maps.GoogleMapOptions
+com.google.android.gms.maps.GoogleMapOptions: com.google.android.gms.maps.GoogleMapOptionsCreator CREATOR
+com.google.android.gms.maps.MapView: com.google.android.gms.maps.GoogleMap getMap()
+com.google.android.gms.maps.model.CameraPosition
+com.google.android.gms.maps.model.CameraPosition: com.google.android.gms.maps.model.CameraPositionCreator CREATOR
+com.google.android.gms.maps.model.CircleOptions
+com.google.android.gms.maps.model.CircleOptions: com.google.android.gms.maps.model.CircleOptionsCreator CREATOR
+com.google.android.gms.maps.model.GroundOverlayOptions
+com.google.android.gms.maps.model.GroundOverlayOptions: com.google.android.gms.maps.model.GroundOverlayOptionsCreator CREATOR
+com.google.android.gms.maps.model.LatLng
+com.google.android.gms.maps.model.LatLng: com.google.android.gms.maps.model.LatLngCreator CREATOR
+com.google.android.gms.maps.model.LatLngBounds
+com.google.android.gms.maps.model.LatLngBounds: com.google.android.gms.maps.model.LatLngBoundsCreator CREATOR
+com.google.android.gms.maps.model.MarkerOptions
+com.google.android.gms.maps.model.MarkerOptions: com.google.android.gms.maps.model.MarkerOptionsCreator CREATOR
+com.google.android.gms.maps.model.PolygonOptions
+com.google.android.gms.maps.model.PolygonOptions: com.google.android.gms.maps.model.PolygonOptionsCreator CREATOR
+com.google.android.gms.maps.model.PolylineOptions
+com.google.android.gms.maps.model.PolylineOptions: com.google.android.gms.maps.model.PolylineOptionsCreator CREATOR
+com.google.android.gms.maps.model.Tile
+com.google.android.gms.maps.model.Tile: com.google.android.gms.maps.model.TileCreator CREATOR
+com.google.android.gms.maps.model.TileOverlayOptions
+com.google.android.gms.maps.model.TileOverlayOptions: com.google.android.gms.maps.model.TileOverlayOptionsCreator CREATOR
+com.google.android.gms.maps.model.VisibleRegion
+com.google.android.gms.maps.model.VisibleRegion: com.google.android.gms.maps.model.VisibleRegionCreator CREATOR
+com.google.android.gms.plus.PlusOneButton: void setOnPlusOneClickListener(com.google.android.gms.plus.PlusOneButton$OnPlusOneClickListener)
+com.google.android.gms.plus.PlusOneButton: void setAnnotation(int)
+com.google.android.gms.plus.PlusOneButton: void setSize(int)
+com.google.android.gms.plus.PlusOneButtonWithPopup: void setOnClickListener(android.view.View$OnClickListener)
+com.google.android.gms.plus.PlusOneButtonWithPopup: void setAnnotation(int)
+com.google.android.gms.plus.PlusOneButtonWithPopup: void setSize(int)
+com.google.android.gms.plus.PlusOneButtonWithPopup: android.app.PendingIntent getResolution()
+com.google.android.gms.wallet.Address
+com.google.android.gms.wallet.Address: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.Cart
+com.google.android.gms.wallet.Cart: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.CountrySpecification
+com.google.android.gms.wallet.CountrySpecification: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.FullWallet
+com.google.android.gms.wallet.FullWallet: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.FullWalletRequest
+com.google.android.gms.wallet.FullWalletRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.LineItem
+com.google.android.gms.wallet.LineItem: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.LoyaltyWalletObject
+com.google.android.gms.wallet.LoyaltyWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.MaskedWallet
+com.google.android.gms.wallet.MaskedWallet: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.MaskedWalletRequest
+com.google.android.gms.wallet.MaskedWalletRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.NotifyTransactionStatusRequest
+com.google.android.gms.wallet.NotifyTransactionStatusRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.OfferWalletObject
+com.google.android.gms.wallet.OfferWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.ProxyCard
+com.google.android.gms.wallet.ProxyCard: android.os.Parcelable$Creator CREATOR
+com.todddavies.components.progressbar.ProgressWheel
+com.todddavies.components.progressbar.ProgressWheel: ProgressWheel(android.content.Context,android.util.AttributeSet)
+com.todddavies.components.progressbar.ProgressWheel: void setProgress(int)
+com.todddavies.components.progressbar.ProgressWheel: void setText(java.lang.String)
+com.todddavies.components.progressbar.ProgressWheel: int getCircleRadius()
+com.todddavies.components.progressbar.ProgressWheel: void setCircleRadius(int)
+com.todddavies.components.progressbar.ProgressWheel: int getBarLength()
+com.todddavies.components.progressbar.ProgressWheel: void setBarLength(int)
+com.todddavies.components.progressbar.ProgressWheel: int getBarWidth()
+com.todddavies.components.progressbar.ProgressWheel: void setBarWidth(int)
+com.todddavies.components.progressbar.ProgressWheel: int getTextSize()
+com.todddavies.components.progressbar.ProgressWheel: void setTextSize(int)
+com.todddavies.components.progressbar.ProgressWheel: int getPaddingTop()
+com.todddavies.components.progressbar.ProgressWheel: void setPaddingTop(int)
+com.todddavies.components.progressbar.ProgressWheel: int getPaddingBottom()
+com.todddavies.components.progressbar.ProgressWheel: void setPaddingBottom(int)
+com.todddavies.components.progressbar.ProgressWheel: int getPaddingLeft()
+com.todddavies.components.progressbar.ProgressWheel: void setPaddingLeft(int)
+com.todddavies.components.progressbar.ProgressWheel: int getPaddingRight()
+com.todddavies.components.progressbar.ProgressWheel: void setPaddingRight(int)
+com.todddavies.components.progressbar.ProgressWheel: int getBarColor()
+com.todddavies.components.progressbar.ProgressWheel: void setBarColor(int)
+com.todddavies.components.progressbar.ProgressWheel: int getCircleColor()
+com.todddavies.components.progressbar.ProgressWheel: void setCircleColor(int)
+com.todddavies.components.progressbar.ProgressWheel: int getRimColor()
+com.todddavies.components.progressbar.ProgressWheel: void setRimColor(int)
+com.todddavies.components.progressbar.ProgressWheel: android.graphics.Shader getRimShader()
+com.todddavies.components.progressbar.ProgressWheel: void setRimShader(android.graphics.Shader)
+com.todddavies.components.progressbar.ProgressWheel: int getTextColor()
+com.todddavies.components.progressbar.ProgressWheel: void setTextColor(int)
+com.todddavies.components.progressbar.ProgressWheel: int getSpinSpeed()
+com.todddavies.components.progressbar.ProgressWheel: void setSpinSpeed(int)
+com.todddavies.components.progressbar.ProgressWheel: int getRimWidth()
+com.todddavies.components.progressbar.ProgressWheel: void setRimWidth(int)
+com.todddavies.components.progressbar.ProgressWheel: int getDelayMillis()
+com.todddavies.components.progressbar.ProgressWheel: void setDelayMillis(int)
+com.todddavies.components.progressbar.R$attr: int barColor
+com.todddavies.components.progressbar.R$attr: int barLength
+com.todddavies.components.progressbar.R$attr: int barWidth
+com.todddavies.components.progressbar.R$attr: int circleColor
+com.todddavies.components.progressbar.R$attr: int contourColor
+com.todddavies.components.progressbar.R$attr: int contourSize
+com.todddavies.components.progressbar.R$attr: int delayMillis
+com.todddavies.components.progressbar.R$attr: int radius
+com.todddavies.components.progressbar.R$attr: int rimColor
+com.todddavies.components.progressbar.R$attr: int rimWidth
+com.todddavies.components.progressbar.R$attr: int spinSpeed
+com.todddavies.components.progressbar.R$attr: int text
+com.todddavies.components.progressbar.R$attr: int textColor
+com.todddavies.components.progressbar.R$attr: int textSize
+com.todddavies.components.progressbar.R$drawable: int header
+com.todddavies.components.progressbar.R$drawable: int ic_launcher
+com.todddavies.components.progressbar.R$drawable: int icon
+com.todddavies.components.progressbar.R$drawable: int login_gradient
+com.todddavies.components.progressbar.R$drawable: int login_gradient_flip
+com.todddavies.components.progressbar.R$drawable: int logo
+com.todddavies.components.progressbar.R$id: int RelativeLayout01
+com.todddavies.components.progressbar.R$id: int btn_increment
+com.todddavies.components.progressbar.R$id: int btn_spin
+com.todddavies.components.progressbar.R$id: int iv_login_header_image
+com.todddavies.components.progressbar.R$id: int progressBar
+com.todddavies.components.progressbar.R$id: int progressBarFour
+com.todddavies.components.progressbar.R$id: int progressBarThree
+com.todddavies.components.progressbar.R$id: int progressBarTwo
+com.todddavies.components.progressbar.R$id: int progressImage
+com.todddavies.components.progressbar.R$id: int rl_login_header
+com.todddavies.components.progressbar.R$id: int tv_progressText
+com.todddavies.components.progressbar.R$id: int v_login_gradient
+com.todddavies.components.progressbar.R$id: int vf_login_flipper
+com.todddavies.components.progressbar.R$layout: int main
+com.todddavies.components.progressbar.R$layout: int progress_spinner
+com.todddavies.components.progressbar.R$layout: int progress_wheel_activity
+com.todddavies.components.progressbar.R$string: int app_name
+com.todddavies.components.progressbar.R$string: int hello
+com.todddavies.components.progressbar.R$styleable: int[] ProgressWheel
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_barColor
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_barLength
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_barWidth
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_circleColor
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_contourColor
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_contourSize
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_delayMillis
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_radius
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_rimColor
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_rimWidth
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_spinSpeed
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_text
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_textColor
+com.todddavies.components.progressbar.R$styleable: int ProgressWheel_textSize
+it.amicosmanettone.assistenza.assistenzaitalia.MainActivity
+it.amicosmanettone.assistenza.assistenzaitalia.MainActivity: MainActivity()
+it.amicosmanettone.assistenza.assistenzaitalia.PreferenceFragment
+it.amicosmanettone.assistenza.assistenzaitalia.PreferenceFragment: PreferenceFragment()
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Abruzzo
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Basilicata
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Calabria
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Campania
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Emilia_Romagna
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Friuli_Venezia_Giulia
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Lazio
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Liguria
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Lombardia
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Marche
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Molise
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Piemonte
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Puglia
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Sardegna
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Sicilia
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Toscana
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Trentino_Alto_Adige
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Umbria
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Valle_Aosta
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int Veneto
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int internet
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int listChatUpdate
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int listChatUpdateValues
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int nav_drawer_icons
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int nav_drawer_items
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int problemi
+it.amicosmanettone.assistenza.assistenzaitalia.R$array: int regioniItalia
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int adSize
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int adSizes
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int adUnitId
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int barColor
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int barLength
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int barWidth
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int border
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int border_color
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int border_width
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int cameraBearing
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int cameraTargetLat
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int cameraTargetLng
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int cameraTilt
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int cameraZoom
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int circleColor
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int circularImageViewStyle
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int contourColor
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int contourSize
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int delayMillis
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int mapType
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int radius
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int rimColor
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int rimWidth
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int shadow
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int spinSpeed
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int text
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int textColor
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int textSize
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int uiCompass
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int uiRotateGestures
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int uiScrollGestures
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int uiTiltGestures
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int uiZoomControls
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int uiZoomGestures
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int useViewLifecycle
+it.amicosmanettone.assistenza.assistenzaitalia.R$attr: int zOrderOnTop
+it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_action_bar_splitter
+it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_dark_text_default
+it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_dark_text_disabled
+it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_dark_text_focused
+it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_dark_text_pressed
+it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_default_background
+it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_light_text_default
+it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_light_text_disabled
+it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_light_text_focused
+it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_light_text_pressed
+it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_text_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_text_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$dimen: int activity_horizontal_margin
+it.amicosmanettone.assistenza.assistenzaitalia.R$dimen: int activity_vertical_margin
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int button_default
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int button_pressed
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int button_selector
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int chat_row_bg
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int chat_send_default
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int chat_text_bg
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_icon_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_icon_disabled_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_icon_disabled_focus_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_icon_disabled_focus_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_icon_disabled_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_icon_focus_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_icon_focus_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_icon_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_icon_normal_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_icon_normal_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_icon_pressed_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_icon_pressed_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_text_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_text_disabled_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_text_disabled_focus_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_text_disabled_focus_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_text_disabled_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_text_focus_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_text_focus_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_text_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_text_normal_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_text_normal_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_text_pressed_dark
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int common_signin_btn_text_pressed_light
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int default_user
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int facebook
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int google
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int header
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_assistenza
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_chat
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_chat_send
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_diagnosi
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_drawer
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_information
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_informazioni
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_launcher
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_plusone_medium_off_client
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_plusone_small_off_client
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_plusone_standard_off_client
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_plusone_tall_off_client
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_preference
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int ic_tecnico
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int icon
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int login_gradient
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int login_gradient_flip
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int logo
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int menu_counter_bg
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int menu_item_active
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int menu_item_normal
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int menu_item_pressed
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int menu_item_selector
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int text_bg
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int twitter
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int RelativeLayout01
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int TextView01
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaButtonDevice
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaButtonModify
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaButtonOther
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaButtonSend
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaFiveButtonBack
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaFiveButtonNext
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaFourButtonBack
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaFourButtonNext
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaSixButtonBack
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaSixButtonNext
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaSpinnerInternet
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaSpinnerProblema
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaSpinnerProvince
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaSpinnerRegioni
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaTextTitle
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaThreeButtonBack
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaThreeButtonNext
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaTwoButtonBack
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenzaTwoButtonNext
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int assistenza_spinner
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int btn_increment
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int btn_spin
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int buttonAmicosmanettone
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int buttonFacebook
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int buttonGoogle
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int buttonLogin
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int buttonLogout
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int buttonSend
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int buttonTwitter
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int chatLinerSend
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int chat_bottom_layout
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int chat_frame
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int chat_spinner
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int chat_top_layout
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int diagnosis_category_title
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int drawer_layout
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int editTextEmail
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int editTextLocalita
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int editTextMessaggio
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int editTextName
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int editTextTelephone
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int editTextTelephone2
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int frame_container
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int home_spinner
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int hr_home_user
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int hybrid
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int imageChatUser
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int imageHomeGuest
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int imageUser
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int iv_login_header_image
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int listChat
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int list_diagnosis_categories
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int list_slidermenu
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int loginPassword
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int loginUsername
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int menu_counter
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int menu_icon
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int menu_title
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int none
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int normal
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int progressBar
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int progressBarFour
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int progressBarThree
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int progressBarTwo
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int progressImage
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int rl_login_header
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int satellite
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int scrollHomeGuest
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int scrollView1
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int tecnici_bottom_layout
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int tecnici_frame
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int tecnici_spinner
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int tecnici_top_layout
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int terrain
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int testoHomeGuest
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int testoHomeUser
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int testoMessaggioInvia
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int testoPasswordLogin
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int testoUsernameLogin
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textChatDate
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textChatMessage
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textChatUser
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textInformationBottom
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textInformationHead
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textKarma
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textResetModule
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textRiepilog
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textTitleDiagnosis
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textView1
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int tv_progressText
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int v_login_gradient
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int vf_login_flipper
+it.amicosmanettone.assistenza.assistenzaitalia.R$integer: int google_play_services_version
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int activity_main
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_assistenza
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_assistenza_five
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_assistenza_four
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_assistenza_riepilog
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_assistenza_send
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_assistenza_six
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_assistenza_three
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_assistenza_two
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_chat
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_diagnosi
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_home_guest
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_home_user
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_information
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_tecnici
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int main
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int menu_item_layout
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int progress_spinner
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int progress_wheel_activity
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int rigachat
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int rigadiagnosiprincipale
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int spinner_item
+it.amicosmanettone.assistenza.assistenzaitalia.R$raw: int lista_categorie_principali
+it.amicosmanettone.assistenza.assistenzaitalia.R$raw: int pc_fisso
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int app_name
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int auth_client_needs_enabling_title
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int auth_client_needs_installation_title
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int auth_client_needs_update_title
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int auth_client_play_services_err_notification_msg
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int auth_client_requested_by_msg
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int auth_client_using_bad_version_title
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_enable_button
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_enable_text
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_enable_title
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_install_button
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_install_text_phone
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_install_text_tablet
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_install_title
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_invalid_account_text
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_invalid_account_title
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_network_error_text
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_network_error_title
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_unknown_issue
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_unsupported_date_text
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_unsupported_text
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_unsupported_title
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_update_button
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_update_text
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_google_play_services_update_title
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_signin_button_text
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int common_signin_button_text_long
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int drawer_close
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int drawer_open
+it.amicosmanettone.assistenza.assistenzaitalia.R$string: int hello
+it.amicosmanettone.assistenza.assistenzaitalia.R$style: int AppBaseTheme
+it.amicosmanettone.assistenza.assistenzaitalia.R$style: int AppTheme
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int[] AdsAttrs
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int AdsAttrs_adSize
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int AdsAttrs_adSizes
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int AdsAttrs_adUnitId
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int[] CircularImageView
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int CircularImageView_border
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int CircularImageView_border_color
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int CircularImageView_border_width
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int CircularImageView_shadow
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int[] MapAttrs
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_cameraBearing
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_cameraTargetLat
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_cameraTargetLng
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_cameraTilt
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_cameraZoom
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_mapType
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_uiCompass
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_uiRotateGestures
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_uiScrollGestures
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_uiTiltGestures
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_uiZoomControls
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_uiZoomGestures
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_useViewLifecycle
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int MapAttrs_zOrderOnTop
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int[] ProgressWheel
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_barColor
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_barLength
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_barWidth
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_circleColor
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_contourColor
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_contourSize
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_delayMillis
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_radius
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_rimColor
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_rimWidth
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_spinSpeed
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_text
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_textColor
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int ProgressWheel_textSize
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int[] Theme
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int Theme_circularImageViewStyle
+it.amicosmanettone.assistenza.assistenzaitalia.R$xml: int preference
+it.amicosmanettone.assistenza.assistenzaitalia.R$xml: int translate_in
+it.amicosmanettone.assistenza.assistenzaitalia.R$xml: int translate_out
+it.amicosmanettone.assistenza.assistenzaitalia.adapter.CircularImageView
+it.amicosmanettone.assistenza.assistenzaitalia.adapter.CircularImageView: CircularImageView(android.content.Context)
+it.amicosmanettone.assistenza.assistenzaitalia.adapter.CircularImageView: CircularImageView(android.content.Context,android.util.AttributeSet)
+it.amicosmanettone.assistenza.assistenzaitalia.adapter.CircularImageView: CircularImageView(android.content.Context,android.util.AttributeSet,int)
+it.amicosmanettone.assistenza.assistenzaitalia.adapter.CircularImageView: void setBorderWidth(int)
+it.amicosmanettone.assistenza.assistenzaitalia.adapter.CircularImageView: void setBorderColor(int)
+it.amicosmanettone.assistenza.assistenzaitalia.gcm.GcmBroadcastReceiver
+it.amicosmanettone.assistenza.assistenzaitalia.gcm.GcmBroadcastReceiver: GcmBroadcastReceiver()
+it.amicosmanettone.assistenza.assistenzaitalia.gcm.GcmIntentService
+it.amicosmanettone.assistenza.assistenzaitalia.gcm.GcmIntentService: GcmIntentService()

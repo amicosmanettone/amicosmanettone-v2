@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/assistenzaTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Richiedi assistenza"
+        android:textColor="#f00"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Regione:"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/assistenzaSpinnerRegioni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Provincia:"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/assistenzaSpinnerProvince"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textResetModule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Località:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextLocalita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textCapSentences" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/assistenzaFourButtonNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_selector"
+        android:text="AVANTI" />
+
+    <Button
+        android:id="@+id/assistenzaFourButtonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_selector"
+        android:text="INDIETRO" />
+
+</LinearLayout>
