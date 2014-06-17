@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="it.amicosmanettone.assistenza.assistenzaitalia"
     android:versionCode="1"
@@ -74,11 +75,6 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="it.amicosmanettone.assistenza.assistenzaitalia.PreferenceFragment"
@@ -87,6 +83,23 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="it.amicosmanettone.assistenza.assistenzaitalia.MainActivity" />
+        </activity>
+        <activity
+            android:name="it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="it.amicosmanettone.assistenza.assistenzaitalia.StartApp"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

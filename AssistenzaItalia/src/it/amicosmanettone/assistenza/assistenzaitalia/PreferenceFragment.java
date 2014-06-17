@@ -132,8 +132,7 @@ public class PreferenceFragment extends PreferenceActivity implements
 	@Override
 	public void onBackPressed() {
 
-		Intent refresh = getBaseContext().getPackageManager()
-				.getLaunchIntentForPackage(getBaseContext().getPackageName());
+		Intent refresh = new Intent(this, MainActivity.class);
 		refresh.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(refresh);
 		overridePendingTransition(R.xml.translate_in, R.xml.translate_out);

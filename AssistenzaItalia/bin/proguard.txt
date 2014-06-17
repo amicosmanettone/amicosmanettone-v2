@@ -13,19 +13,25 @@
 # view res/layout/main.xml #generated:48
 -keep class com.visualdenim.schooltraq.progressbar.NewProgressSpinner { <init>(...); }
 
-# view AndroidManifest.xml #generated:72
+# view AndroidManifest.xml #generated:73
 -keep class it.amicosmanettone.assistenza.assistenzaitalia.MainActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:83
+# view AndroidManifest.xml #generated:79
 -keep class it.amicosmanettone.assistenza.assistenzaitalia.PreferenceFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class it.amicosmanettone.assistenza.assistenzaitalia.StartApp { <init>(...); }
 
 # view res/layout/fragment_home_guest.xml #generated:19
 # view res/layout/rigachat.xml #generated:45
 -keep class it.amicosmanettone.assistenza.assistenzaitalia.adapter.CircularImageView { <init>(...); }
 
-# view AndroidManifest.xml #generated:54
+# view AndroidManifest.xml #generated:55
 -keep class it.amicosmanettone.assistenza.assistenzaitalia.gcm.GcmBroadcastReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:66
+# view AndroidManifest.xml #generated:67
 -keep class it.amicosmanettone.assistenza.assistenzaitalia.gcm.GcmIntentService { <init>(...); }
 
