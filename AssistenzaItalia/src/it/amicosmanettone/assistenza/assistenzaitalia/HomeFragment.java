@@ -1,7 +1,6 @@
 package it.amicosmanettone.assistenza.assistenzaitalia;
 
 import java.io.File;
-import java.util.Random;
 
 import it.amicosmanettone.assistenza.assistenzaitalia.R;
 import it.amicosmanettone.assistenza.assistenzaitalia.configuration.Configuration;
@@ -62,18 +61,6 @@ public class HomeFragment extends Fragment {
 
 		if (isGuest) {
 
-			if (sharedPref.getString("usernameUtente", "Ospite_android")
-					.equals("Ospite_android")) {
-
-				Log.v("HOME", "Non ho un nome, lo setto");
-
-				Random r = new Random();
-				int ospiteNumber = r.nextInt(10000 - 1000) + 999;
-
-				String UTENTE = "Ospite_android" + ospiteNumber;
-				editor.putString("usernameUtente", UTENTE).commit();
-			}
-
 			Log.v("HOME",
 					"Mi chiamo ----> "
 							+ sharedPref.getString("usernameUtente",
@@ -128,6 +115,7 @@ public class HomeFragment extends Fragment {
 					if (inputUsername.getText() != null) {
 
 						username = inputUsername.getText().toString();
+						username.trim();
 						if (!username.isEmpty()) {
 
 							erroreUsername = 0;
@@ -141,6 +129,7 @@ public class HomeFragment extends Fragment {
 					if (inputPassword.getText() != null) {
 
 						password = inputPassword.getText().toString();
+						password.trim();
 						if (!password.isEmpty()) {
 
 							errorePassword = 0;
@@ -290,6 +279,8 @@ public class HomeFragment extends Fragment {
 								protected void onPostExecute(Boolean result) {
 
 									if (result) {
+										
+										editor.putBoolean("rebootApp", true).commit();
 
 										Intent refresh = getActivity()
 												.getBaseContext()
@@ -492,6 +483,8 @@ public class HomeFragment extends Fragment {
 					editor.remove("isGuest").commit();
 					
 					editor.putBoolean("updateUserOnDb", true).commit();
+					
+					editor.putBoolean("rebootApp", true).commit();
 
 					Intent refresh = getActivity()
 							.getBaseContext()

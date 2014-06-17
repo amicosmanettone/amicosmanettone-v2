@@ -1,18 +1,10 @@
 package it.amicosmanettone.assistenza.assistenzaitalia;
 
-import static it.amicosmanettone.assistenza.assistenzaitalia.configuration.Configuration.PLAYSTORE_URL;
-import static it.amicosmanettone.assistenza.assistenzaitalia.configuration.Configuration.SENDER_ID;
 import it.amicosmanettone.assistenza.assistenzaitalia.adapter.NavDrawerItem;
 import it.amicosmanettone.assistenza.assistenzaitalia.adapter.NavDrawerListAdapter;
-import it.amicosmanettone.assistenza.assistenzaitalia.mysql.UserFunctions;
-import it.amicosmanettone.assistenza.assistenzaitalia.util.GeneralFunction;
 import it.amicosmanettone.assistenza.assistenzaitalia.R;
 
 import java.util.ArrayList;
-import java.util.Random;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
@@ -24,12 +16,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
-import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.ActionBarDrawerToggle;
@@ -65,100 +53,7 @@ public class MainActivity extends Activity {
 
 		sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
 		editor = sharedPref.edit();
-
-		if (sharedPref.getString("usernameUtente", "Ospite_android").equals(
-				"Ospite_android")) {
-
-			Log.v("MAIN", "Non ho un nome, lo setto");
-
-			Random r = new Random();
-			int ospiteNumber = r.nextInt(10000 - 1000) + 999;
-
-			String UTENTE = "Ospite_android" + ospiteNumber;
-			editor.putString("usernameUtente", UTENTE).commit();
-
-			Log.v("MAIN",
-					"Mi chiamo ----> "
-							+ sharedPref.getString("usernameUtente",
-									"Ospite_android"));
-		}
-
-		if (GeneralFunction.verifyConnection(this)) {
-			
-			new verifyVersionApp().execute();
-
-			regId = sharedPref.getString("registrationId", "");
-
-			Log.v("MAIN", "Recupero registration ID ---> " + regId);
-
-			if (!sharedPref.getBoolean("registrationIdDB", false)) {
-
-				Log.v("MAIN", "Non sono registrato al GCM, mi registro");
-				new registraGCM().execute();
-
-			} else {
-
-				Log.v("MAIN", "Sono registrato al GCM");
-
-			}
-
-			if (!regId.isEmpty()) {
-
-				if (sharedPref.getBoolean("updateUserOnDb", false) == true) {
-
-					class updateUserOnDB extends
-							AsyncTask<Void, Integer, Boolean> {
-
-						@Override
-						protected Boolean doInBackground(Void... params) {
-
-							Boolean result = false;
-
-							UserFunctions userFunction = new UserFunctions();
-
-							JSONObject updateUserDevice = userFunction
-									.updateUserDevice(sharedPref.getString(
-											"registrationId", ""), sharedPref
-											.getString("usernameUtente", ""));
-
-							try {
-								if (updateUserDevice != null) {
-									if (Integer.parseInt(updateUserDevice
-											.getString("success")) == 1) {
-
-										result = true;
-
-									}
-								}
-							} catch (JSONException e) {
-
-								e.printStackTrace();
-
-							}
-
-							return result;
-						}
-
-						protected void onPostExecute(Boolean result) {
-
-							if (result) {
-
-								editor.remove("updateUserOnDb").commit();
-
-							}
-
-						}
-
-					}
-
-					new updateUserOnDB().execute();
-
-				}
-
-			}
-
-		}
-
+		
 		setContentView(R.layout.activity_main);
 
 		mTitle = getTitle();
@@ -422,139 +317,5 @@ public class MainActivity extends Activity {
 
 	}// End onBackPressed
 
-	private class registraGCM extends AsyncTask<Void, Integer, Void> {
-
-		@Override
-		protected Void doInBackground(Void... params) {
-
-			if (regId.isEmpty()) {
-				try {
-					if (gcm == null) {
-						gcm = GoogleCloudMessaging
-								.getInstance(getApplicationContext());
-					}
-					regId = gcm.register(SENDER_ID);
-					Log.v("MAIN", "Registration ID -----> " + regId);
-					editor.putString("registrationId", regId).commit();
-
-				} catch (Exception ex) {
-					System.out.println("Errore dati");
-				}
-			}
-
-			UserFunctions userFunction = new UserFunctions();
-			JSONObject json = userFunction.registerDevice(regId,
-					sharedPref.getString("usernameUtente", "Ospite_android"),android.os.Build.VERSION.RELEASE);
-
-			try {
-				if (json != null) {
-					if (Integer.parseInt(json.getString("success")) == 1) {
-
-						Log.v("MAIN", "Registrazione nel db riuscita");
-						editor.putBoolean("registrationIdDB", true).commit();
-
-					} else {
-
-						if (json.getString("error").equals("Gia esiste")) {
-
-							Log.v("MAIN",
-									"Registrazione nel db riuscita, già esiste");
-							editor.putBoolean("registrationIdDB", true)
-									.commit();
-							editor.putBoolean("updateUserOnDb", true).commit();
-							Intent refresh = getBaseContext()
-									.getPackageManager()
-									.getLaunchIntentForPackage(
-											getBaseContext().getPackageName());
-							refresh.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-							startActivity(refresh);
-
-						}
-
-					}
-
-				}
-			} catch (NumberFormatException e) {
-
-				e.printStackTrace();
-			} catch (JSONException e) {
-
-				e.printStackTrace();
-			}
-
-			return null;
-		}
-	}
 	
-	class verifyVersionApp extends AsyncTask<Void, Integer, Boolean> {
-
-		@Override
-		protected Boolean doInBackground(Void... params) {
-			
-			Boolean result = false;
-			
-			PackageInfo pInfo = null;
-			try {
-				pInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
-			} catch (NameNotFoundException e) {
-
-				e.printStackTrace();
-			}
-			
-			String version = pInfo.versionName;
-			
-			Log.v("MAIN", "VERSION ----->   " + version);
-
-			UserFunctions userFunction = new UserFunctions();
-
-			JSONObject updateUserDevice = userFunction.checkVersion(version);
-
-			try {
-				if (updateUserDevice != null) {
-					if (Integer.parseInt(updateUserDevice.getString("success")) == 0) {
-
-						result = true;
-
-					}
-				}
-			} catch (JSONException e) {
-
-				e.printStackTrace();
-
-			}
-			
-			return result;
-
-		}
-		
-		protected void onPostExecute(Boolean result) {
-
-			if (result) {
-
-				AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-
-				builder.setMessage("Hai una vecchia versione dell'applicazione!")
-						.setCancelable(false)
-
-						.setPositiveButton("Aggiorna",
-								new DialogInterface.OnClickListener() {
-									
-									public void onClick(DialogInterface dialog, int id) {
-										
-										Intent i = new Intent(Intent.ACTION_VIEW);
-										i.setData(Uri.parse(PLAYSTORE_URL));
-										startActivity(i);
-										finish();
-										
-									}
-								});
-
-				AlertDialog alert = builder.create();
-				alert.show();
-
-			}
-
-		}
-		
-	}
 }

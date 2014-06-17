@@ -13,7 +13,6 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -34,7 +33,6 @@ import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.AsyncTask;
@@ -116,20 +114,7 @@ public class ChatFragment extends Fragment {
 			
 		}		
 
-		if (sharedPref.getString("usernameUtente", "Ospite_android").equals(
-				"Ospite_android")) {
-
-			Random r = new Random();
-			int ospiteNumber = r.nextInt(10000 - 1000) + 999;
-
-			UTENTE = "Ospite_android" + ospiteNumber;
-			editor.putString("usernameUtente", UTENTE).commit();
-
-		} else {
-
-			UTENTE = sharedPref.getString("usernameUtente", "Ospite_android");
-
-		}
+		UTENTE = sharedPref.getString("usernameUtente", "");
 
 		Log.v("CHAT", "Mi chiamo ----> " + UTENTE);
 
