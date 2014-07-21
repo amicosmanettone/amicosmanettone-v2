@@ -5966,18 +5966,16 @@ it.amicosmanettone.assistenza.assistenzaitalia.InformationFragment$4 -> it.amico
     it.amicosmanettone.assistenza.assistenzaitalia.InformationFragment this$0 -> a
     void onClick(android.view.View) -> onClick
 it.amicosmanettone.assistenza.assistenzaitalia.MainActivity -> it.amicosmanettone.assistenza.assistenzaitalia.MainActivity:
-    android.support.v4.widget.DrawerLayout mDrawerLayout -> e
-    android.widget.ListView mDrawerList -> f
-    android.support.v4.app.ActionBarDrawerToggle mDrawerToggle -> g
-    java.lang.CharSequence mTitle -> h
-    java.lang.String[] navMenuTitles -> i
-    android.content.res.TypedArray navMenuIcons -> j
-    java.util.ArrayList navDrawerItems -> k
-    it.amicosmanettone.assistenza.assistenzaitalia.adapter.NavDrawerListAdapter adapter -> l
+    android.support.v4.widget.DrawerLayout mDrawerLayout -> c
+    android.widget.ListView mDrawerList -> d
+    android.support.v4.app.ActionBarDrawerToggle mDrawerToggle -> e
+    java.lang.CharSequence mTitle -> f
+    java.lang.String[] navMenuTitles -> g
+    android.content.res.TypedArray navMenuIcons -> h
+    java.util.ArrayList navDrawerItems -> i
+    it.amicosmanettone.assistenza.assistenzaitalia.adapter.NavDrawerListAdapter adapter -> j
     android.content.SharedPreferences sharedPref -> a
     android.content.SharedPreferences$Editor editor -> b
-    java.lang.String regId -> c
-    com.google.android.gms.gcm.GoogleCloudMessaging gcm -> d
     void onCreate(android.os.Bundle) -> onCreate
     void displayView(int) -> a
     void setTitle(java.lang.CharSequence) -> setTitle
@@ -5991,35 +5989,15 @@ it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$1 -> it.amicosmanett
     it.amicosmanettone.assistenza.assistenzaitalia.MainActivity this$0 -> a
     void onDrawerClosed(android.view.View) -> b
     void onDrawerOpened(android.view.View) -> a
-it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$1updateUserOnDB -> it.amicosmanettone.assistenza.assistenzaitalia.bd:
-    it.amicosmanettone.assistenza.assistenzaitalia.MainActivity this$0 -> a
-    java.lang.Boolean doInBackground(java.lang.Void[]) -> a
-    void onPostExecute(java.lang.Boolean) -> a
-    void onPostExecute(java.lang.Object) -> onPostExecute
-    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
-it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$2 -> it.amicosmanettone.assistenza.assistenzaitalia.be:
+it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$2 -> it.amicosmanettone.assistenza.assistenzaitalia.bd:
     it.amicosmanettone.assistenza.assistenzaitalia.MainActivity this$0 -> a
     void onClick(android.content.DialogInterface,int) -> onClick
-it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$3 -> it.amicosmanettone.assistenza.assistenzaitalia.bf:
+it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$3 -> it.amicosmanettone.assistenza.assistenzaitalia.be:
     it.amicosmanettone.assistenza.assistenzaitalia.MainActivity this$0 -> a
     void onClick(android.content.DialogInterface,int) -> onClick
-it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$SlideMenuClickListener -> it.amicosmanettone.assistenza.assistenzaitalia.bg:
+it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$SlideMenuClickListener -> it.amicosmanettone.assistenza.assistenzaitalia.bf:
     it.amicosmanettone.assistenza.assistenzaitalia.MainActivity this$0 -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$registraGCM -> it.amicosmanettone.assistenza.assistenzaitalia.bh:
-    it.amicosmanettone.assistenza.assistenzaitalia.MainActivity this$0 -> a
-    java.lang.Void doInBackground(java.lang.Void[]) -> a
-    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
-it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$verifyVersionApp -> it.amicosmanettone.assistenza.assistenzaitalia.bi:
-    it.amicosmanettone.assistenza.assistenzaitalia.MainActivity this$0 -> a
-    java.lang.Boolean doInBackground(java.lang.Void[]) -> a
-    void onPostExecute(java.lang.Boolean) -> a
-    void onPostExecute(java.lang.Object) -> onPostExecute
-    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
-    it.amicosmanettone.assistenza.assistenzaitalia.MainActivity access$2(it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$verifyVersionApp) -> a
-it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$verifyVersionApp$1 -> it.amicosmanettone.assistenza.assistenzaitalia.bj:
-    it.amicosmanettone.assistenza.assistenzaitalia.MainActivity$verifyVersionApp this$1 -> a
-    void onClick(android.content.DialogInterface,int) -> onClick
 it.amicosmanettone.assistenza.assistenzaitalia.PreferenceFragment -> it.amicosmanettone.assistenza.assistenzaitalia.PreferenceFragment:
     android.content.SharedPreferences prefs -> a
     android.content.SharedPreferences$Editor editor -> b
@@ -6034,11 +6012,11 @@ it.amicosmanettone.assistenza.assistenzaitalia.PreferenceFragment -> it.amicosma
     void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
     void onBackPressed() -> onBackPressed
     boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-it.amicosmanettone.assistenza.assistenzaitalia.PreferenceFragment$1 -> it.amicosmanettone.assistenza.assistenzaitalia.bk:
+it.amicosmanettone.assistenza.assistenzaitalia.PreferenceFragment$1 -> it.amicosmanettone.assistenza.assistenzaitalia.bg:
     it.amicosmanettone.assistenza.assistenzaitalia.PreferenceFragment this$0 -> a
     boolean onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange
-it.amicosmanettone.assistenza.assistenzaitalia.R -> it.amicosmanettone.assistenza.assistenzaitalia.bl:
-it.amicosmanettone.assistenza.assistenzaitalia.R$styleable -> it.amicosmanettone.assistenza.assistenzaitalia.bm:
+it.amicosmanettone.assistenza.assistenzaitalia.R -> it.amicosmanettone.assistenza.assistenzaitalia.bh:
+it.amicosmanettone.assistenza.assistenzaitalia.R$styleable -> it.amicosmanettone.assistenza.assistenzaitalia.bi:
     int[] AdsAttrs -> AdsAttrs
     int AdsAttrs_adSize -> AdsAttrs_adSize
     int AdsAttrs_adSizes -> AdsAttrs_adSizes
@@ -6080,14 +6058,56 @@ it.amicosmanettone.assistenza.assistenzaitalia.R$styleable -> it.amicosmanettone
     int ProgressWheel_textSize -> ProgressWheel_textSize
     int[] Theme -> Theme
     int Theme_circularImageViewStyle -> Theme_circularImageViewStyle
-it.amicosmanettone.assistenza.assistenzaitalia.TecniciFragment -> it.amicosmanettone.assistenza.assistenzaitalia.bn:
+it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity -> it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity:
+    android.content.SharedPreferences sharedPref -> a
+    android.content.SharedPreferences$Editor editor -> b
+    java.lang.String regId -> c
+    java.lang.Boolean update -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void onBackPressed() -> onBackPressed
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onStop() -> onStop
+    void onDestroy() -> onDestroy
+it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity$OPERATION -> it.amicosmanettone.assistenza.assistenzaitalia.bj:
+    it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.Boolean doInBackground(java.lang.Void[]) -> a
+    void onPostExecute(java.lang.Boolean) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity access$2(it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity$OPERATION) -> a
+it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity$OPERATION$1 -> it.amicosmanettone.assistenza.assistenzaitalia.bk:
+    it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity$OPERATION this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity$registraGCM -> it.amicosmanettone.assistenza.assistenzaitalia.bl:
+    it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity this$0 -> a
+    java.lang.Boolean doInBackground(java.lang.Void[]) -> a
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity$updateUserOnDB -> it.amicosmanettone.assistenza.assistenzaitalia.bm:
+    it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity this$0 -> a
+    java.lang.Boolean doInBackground(java.lang.Void[]) -> a
+    void onPostExecute(java.lang.Boolean) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity$verifyVersionApp -> it.amicosmanettone.assistenza.assistenzaitalia.bn:
+    it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity this$0 -> a
+    java.lang.Boolean doInBackground(java.lang.Void[]) -> a
+    void onPostExecute(java.lang.Boolean) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+it.amicosmanettone.assistenza.assistenzaitalia.StartApp -> it.amicosmanettone.assistenza.assistenzaitalia.StartApp:
+    android.content.SharedPreferences sharedPref -> a
+    android.content.SharedPreferences$Editor editor -> b
+    void onCreate(android.os.Bundle) -> onCreate
+it.amicosmanettone.assistenza.assistenzaitalia.TecniciFragment -> it.amicosmanettone.assistenza.assistenzaitalia.bo:
     android.view.View rootView -> a
     android.content.SharedPreferences sharedPref -> b
     android.content.SharedPreferences$Editor editor -> c
     android.view.View topLevelLayout -> d
     android.view.View bottomLevelLayout -> e
     android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
-it.amicosmanettone.assistenza.assistenzaitalia.TecniciFragment$1DownloadInterventi -> it.amicosmanettone.assistenza.assistenzaitalia.bo:
+it.amicosmanettone.assistenza.assistenzaitalia.TecniciFragment$1DownloadInterventi -> it.amicosmanettone.assistenza.assistenzaitalia.bp:
     java.lang.String karmaUtente -> a
     it.amicosmanettone.assistenza.assistenzaitalia.TecniciFragment this$0 -> b
     com.todddavies.components.progressbar.ProgressWheel val$pw -> c
@@ -6223,6 +6243,7 @@ it.amicosmanettone.assistenza.assistenzaitalia.util.GeneralFunction -> it.amicos
     void activateStrictMode(boolean) -> a
     boolean verifyConnection(android.content.Context) -> a
     void messageBox(java.lang.String,android.content.Context) -> a
+    java.lang.String setUserName(android.content.SharedPreferences,android.content.SharedPreferences$Editor) -> a
 it.amicosmanettone.assistenza.assistenzaitalia.util.GeneralFunction$1 -> it.amicosmanettone.assistenza.assistenzaitalia.d.b:
     void onClick(android.content.DialogInterface,int) -> onClick
 it.amicosmanettone.assistenza.assistenzaitalia.util.Image -> it.amicosmanettone.assistenza.assistenzaitalia.d.c:

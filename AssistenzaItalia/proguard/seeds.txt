@@ -620,6 +620,7 @@ it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_te
 it.amicosmanettone.assistenza.assistenzaitalia.R$color: int common_signin_btn_text_light
 it.amicosmanettone.assistenza.assistenzaitalia.R$dimen: int activity_horizontal_margin
 it.amicosmanettone.assistenza.assistenzaitalia.R$dimen: int activity_vertical_margin
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int bg
 it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int button_default
 it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int button_pressed
 it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int button_selector
@@ -677,6 +678,7 @@ it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int menu_item_active
 it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int menu_item_normal
 it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int menu_item_pressed
 it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int menu_item_selector
+it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int splash_image
 it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int text_bg
 it.amicosmanettone.assistenza.assistenzaitalia.R$drawable: int twitter
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int RelativeLayout01
@@ -730,7 +732,9 @@ it.amicosmanettone.assistenza.assistenzaitalia.R$id: int hybrid
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int imageChatUser
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int imageHomeGuest
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int imageUser
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int imageViewSplash
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int iv_login_header_image
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int layoutSplash
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int listChat
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int list_diagnosis_categories
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int list_slidermenu
@@ -743,6 +747,7 @@ it.amicosmanettone.assistenza.assistenzaitalia.R$id: int none
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int normal
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int progressBar
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int progressBarFour
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int progressBarSplash
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int progressBarThree
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int progressBarTwo
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int progressImage
@@ -770,11 +775,13 @@ it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textResetModule
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textRiepilog
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textTitleDiagnosis
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textView1
+it.amicosmanettone.assistenza.assistenzaitalia.R$id: int textViewSplash
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int tv_progressText
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int v_login_gradient
 it.amicosmanettone.assistenza.assistenzaitalia.R$id: int vf_login_flipper
 it.amicosmanettone.assistenza.assistenzaitalia.R$integer: int google_play_services_version
 it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int activity_main
+it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int activity_splash
 it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_assistenza
 it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_assistenza_five
 it.amicosmanettone.assistenza.assistenzaitalia.R$layout: int fragment_assistenza_four
@@ -874,6 +881,10 @@ it.amicosmanettone.assistenza.assistenzaitalia.R$styleable: int Theme_circularIm
 it.amicosmanettone.assistenza.assistenzaitalia.R$xml: int preference
 it.amicosmanettone.assistenza.assistenzaitalia.R$xml: int translate_in
 it.amicosmanettone.assistenza.assistenzaitalia.R$xml: int translate_out
+it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity
+it.amicosmanettone.assistenza.assistenzaitalia.SplashActivity: SplashActivity()
+it.amicosmanettone.assistenza.assistenzaitalia.StartApp
+it.amicosmanettone.assistenza.assistenzaitalia.StartApp: StartApp()
 it.amicosmanettone.assistenza.assistenzaitalia.adapter.CircularImageView
 it.amicosmanettone.assistenza.assistenzaitalia.adapter.CircularImageView: CircularImageView(android.content.Context)
 it.amicosmanettone.assistenza.assistenzaitalia.adapter.CircularImageView: CircularImageView(android.content.Context,android.util.AttributeSet)
