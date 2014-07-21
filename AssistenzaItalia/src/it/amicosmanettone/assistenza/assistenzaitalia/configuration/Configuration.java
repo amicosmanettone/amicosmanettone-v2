@@ -43,6 +43,6 @@ public class Configuration{
 	
 	
 	/*** GCM ***/
-    public static final String SENDER_ID = "14806801099";
+    public static final String SENDER_ID = "520431980553";
 	
 }//End class...

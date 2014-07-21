@@ -3660,6 +3660,9 @@ it.amicosmanettone.assistenza.assistenzaitalia.BuildConfig
 it.amicosmanettone.assistenza.assistenzaitalia.ChatFragment$SendUserOnline
 it.amicosmanettone.assistenza.assistenzaitalia.ChildrenDiagnosisFragment
 it.amicosmanettone.assistenza.assistenzaitalia.ChildrenDiagnosisFragment$1
+it.amicosmanettone.assistenza.assistenzaitalia.MainActivity:
+    java.lang.String regId
+    com.google.android.gms.gcm.GoogleCloudMessaging gcm
 it.amicosmanettone.assistenza.assistenzaitalia.Manifest
 it.amicosmanettone.assistenza.assistenzaitalia.Manifest$permission
 it.amicosmanettone.assistenza.assistenzaitalia.PrincipalDiagnosisFragment
@@ -3678,7 +3681,7 @@ it.amicosmanettone.assistenza.assistenzaitalia.R$raw
 it.amicosmanettone.assistenza.assistenzaitalia.R$string
 it.amicosmanettone.assistenza.assistenzaitalia.R$style
 it.amicosmanettone.assistenza.assistenzaitalia.R$styleable:
-    714:714:public R$styleable()
+    726:726:public R$styleable()
 it.amicosmanettone.assistenza.assistenzaitalia.R$xml
 it.amicosmanettone.assistenza.assistenzaitalia.adapter.NavDrawerItem:
     18:23:public NavDrawerItem(java.lang.String,int,boolean,java.lang.String)
@@ -3702,7 +3705,7 @@ it.amicosmanettone.assistenza.assistenzaitalia.mysql.UserFunctions:
     99:104:public org.json.JSONObject sendChatNotification()
     109:115:public org.json.JSONObject checkDiagnosisVersion(java.lang.String)
 it.amicosmanettone.assistenza.assistenzaitalia.util.GeneralFunction:
-    10:10:public GeneralFunction()
+    27:27:public GeneralFunction()
 it.amicosmanettone.assistenza.assistenzaitalia.util.Image:
     13:13:public Image()
 it.amicosmanettone.assistenza.assistenzaitalia.util.ReadDiagnosis
